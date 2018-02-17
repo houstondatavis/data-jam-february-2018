@@ -6,5 +6,6 @@ CREATE TABLE census.characteristics (
 	selectable             bool,
 	sort_sequence          smallint
 );
+CREATE INDEX ON census.characteristics (characteristics_code);
 
 \COPY census.characteristics FROM './data/raw_data/cx.characteristics.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );
