@@ -1,0 +1,29 @@
+Header1,Header2,Header3,"All consumerunits in the South","WashingtonD.C.",Baltimore,Atlanta,Miami,"Dallas-Fort Worth",Houston,Tampa
+Food,Food at home,Cereals and bakery products,483,530,593,406,559,486,533,536
+Food,Food at home,"Meats, poultry, fish, and eggs",866,915,926,910,"1,059",827,"1,155",760
+Food,Food at home,Dairy products,363,446,432,295,381,365,356,363
+Food,Food at home,Fruits and vegetables,700,917,865,636,884,773,916,714
+Food,Food at home,Other food at home,"1,363","1,480","1,624","1,175","1,237","1,468","1,534","1,375"
+Food,Food away from home,Food away from home,"2,894","3,819","3,892","2,493","2,810","3,461","4,691","2,735"
+Alcoholic beverages,Alcoholic beverages,Alcoholic beverages,404,674,651,297,512,346,563,430
+Housing,Shelter,Owned dwellings,"5,314","10,768","9,960","6,551","6,827","6,167","6,778","5,495"
+Housing,Shelter,Rented dwellings,"3,176","5,314","3,814","4,043","5,543","5,283","4,340","3,792"
+Housing,Shelter,"Utilities, fuels, and public services","3,938","4,221","4,287","4,437","3,693","4,438","4,364","3,856"
+Housing,Shelter,Household operations,"1,250","2,105","1,986","1,589","1,578","1,588","1,472","1,726"
+Housing,Shelter,Housekeeping supplies,654,657,669,486,642,693,818,617
+Housing,Shelter,Household furnishings and equipment,"1,709","2,035","1,818","1,833","1,056","2,402","2,206","1,354"
+Apparel and services,Apparel and services,Apparel and services,"1,684","2,514","1,800","1,892","3,097","2,087","2,711","1,564"
+Transportation,Transportation,Vehicle purchases (net outlay),"4,346","3,512","5,082","5,043","2,025","3,955","6,449","3,651"
+Transportation,Transportation,Gasoline and motor oil,"2,034","1,924","2,184","2,447","2,103","2,286","2,311","1,813"
+Transportation,Transportation,Other vehicle expenses,"2,624","2,811","3,458","2,647","3,324","3,096","4,200","3,163"
+Transportation,Transportation,Public and other transportation,444,"1,427",693,511,892,570,616,469
+Healthcare,Healthcare,Healthcare,"4,271","5,395","4,815","3,993","3,687","4,829","4,061","4,434"
+Healthcare,Healthcare,Entertainment,"2,672","3,203","3,021","3,061","2,026","3,281","2,935","2,331"
+Healthcare,Healthcare,Personal care products and services,629,866,872,573,635,793,981,742
+Healthcare,Healthcare,Reading,93,225,216,86,49,132,106,52
+Healthcare,Healthcare,Education,997,"1,999","1,380","1,284",490,"1,034",830,685
+Healthcare,Healthcare,Tobacco products and smoking supplies,362,244,234,245,179,333,291,310
+Healthcare,Healthcare,Miscellaneous,705,"1,308",871,572,484,998,696,427
+Healthcare,Healthcare,Cash contributions,"1,807","3,582","1,728","1,702","1,191","1,610","1,610",841
+Healthcare,Personal insurance and pensions,Life and other personal insurance,291,573,451,174,173,398,207,167
+Healthcare,Personal insurance and pensions,Pensions and Social Security,"5,577","10,058","9,387","7,849","8,080","7,752","6,333","6,521"
