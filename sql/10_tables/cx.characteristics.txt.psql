@@ -1,6 +1,6 @@
 CREATE TABLE census.characteristics (
-	demographics_code      text,
-	characteristics_code   text,
+	demographics_code      char(4),
+	characteristics_code   char(2),
 	characteristics_text   text,
 	display_level          text,
 	selectable             bool,

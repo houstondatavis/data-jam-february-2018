@@ -1,5 +1,5 @@
 CREATE TABLE census.demographics (
-	demographics_code  text,
+	demographics_code  char(4),
 	demographics_text  text,
 	display_level      text,
 	selectable         bool,
