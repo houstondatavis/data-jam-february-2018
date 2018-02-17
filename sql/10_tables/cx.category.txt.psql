@@ -1,0 +1,10 @@
+CREATE TABLE census.category (
+	category_code  text,
+	category_text  text,
+	--column_text    text,
+	display_level  text,
+	selectable     bool,
+	sort_sequence  smallint
+);
+
+\COPY census.category FROM './data/raw_data/cx.category.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );

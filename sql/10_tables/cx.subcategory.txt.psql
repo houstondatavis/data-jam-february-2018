@@ -1,0 +1,11 @@
+CREATE TABLE census.subcategory (
+	category_code    text,
+	subcategory_code text,
+	subcategory_text text,
+	-- column_text      text,
+	display_level    text,
+	selectable       bool,
+	sort_sequence    int
+);
+
+\COPY census.subcategory FROM './data/raw_data/cx.subcategory.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );

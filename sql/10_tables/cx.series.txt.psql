@@ -1,0 +1,19 @@
+CREATE TABLE census.series (
+	series_id               text,
+	seasonal                text,
+	category_code           text,
+	subcategory_code        text,
+	item_code               text,
+	demographics_code       text,
+	characteristics_code    text,
+	process_code            text,
+	series_title            text,
+	footnote_codes          text,
+	begin_year              text,
+	begin_period            text,
+	end_year                text,
+	end_period              text
+);
+
+\COPY census.series FROM './data/raw_data/cx.series.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );
+

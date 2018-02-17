@@ -1,0 +1,9 @@
+CREATE TABLE census.alldata (
+	series_id       text,
+	year            smallint,
+	period          text,
+	value           text,
+	footnote_codes  text
+);
+
+\COPY census.alldata FROM './data/raw_data/cx.data.1.AllData.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );

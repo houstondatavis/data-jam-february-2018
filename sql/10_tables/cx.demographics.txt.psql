@@ -1,0 +1,9 @@
+CREATE TABLE census.demographics (
+	demographics_code  text,
+	demographics_text  text,
+	display_level      text,
+	selectable         bool,
+	sort_sequence      int
+);
+
+\COPY census.demographics FROM './data/raw_data/cx.demographics.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );
