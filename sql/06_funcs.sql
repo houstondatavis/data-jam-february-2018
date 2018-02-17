@@ -10,4 +10,5 @@ RETURNS census.series_id AS $$
 			substring(series_id FROM 16 FOR 1 ) -- AS process_code
 		)::census.series_id
 	FROM ( VALUES (series_id) ) AS t(series_id)
-$$ LANGUAGE sql;
+$$ LANGUAGE sql
+IMMUTABLE;
