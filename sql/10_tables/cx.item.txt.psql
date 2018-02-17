@@ -7,4 +7,4 @@ CREATE TABLE census.item (
 	sort_sequence     smallint
 );
 
-\COPY census.characteristics FROM './data/raw_data/cx.item.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );
+\COPY census.item FROM './data/raw_data/cx.item.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );
