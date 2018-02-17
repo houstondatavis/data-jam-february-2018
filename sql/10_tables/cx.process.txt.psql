@@ -3,7 +3,7 @@ CREATE TABLE census.process (
 	process_text  text,
 	display_level text,
 	selectable    bool,
-	sort_sequence int
+	sort_sequence smallint
 );
 
 \COPY census.process FROM './data/raw_data/cx.process.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );

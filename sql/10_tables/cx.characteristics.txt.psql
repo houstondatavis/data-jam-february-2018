@@ -3,8 +3,8 @@ CREATE TABLE census.characteristics (
 	characteristics_code   text,
 	characteristics_text   text,
 	display_level          text,
-	selectable             text,
-	sort_sequence          text
+	selectable             bool,
+	sort_sequence          smallint
 );
 
 \COPY census.characteristics FROM './data/raw_data/cx.characteristics.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );
