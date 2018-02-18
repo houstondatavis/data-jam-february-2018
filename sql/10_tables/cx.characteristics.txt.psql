@@ -1,10 +1,11 @@
 CREATE TABLE census.characteristics (
-	demographics_code      text,
-	characteristics_code   text,
+	demographics_code      char(4),
+	characteristics_code   char(2),
 	characteristics_text   text,
 	display_level          text,
-	selectable             text,
-	sort_sequence          text
+	selectable             bool,
+	sort_sequence          smallint
 );
+CREATE INDEX ON census.characteristics (characteristics_code);
 
 \COPY census.characteristics FROM './data/raw_data/cx.characteristics.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );

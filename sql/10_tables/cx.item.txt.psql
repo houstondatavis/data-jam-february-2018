@@ -1,10 +1,10 @@
 CREATE TABLE census.item (
 	subcategory_code  text,
-	item_code         text,
+	item_code         varchar(8)    PRIMARY KEY,
 	item_text         text,
 	display_level     text,
-	selectable        text,
-	sort_sequence     int
+	selectable        bool,
+	sort_sequence     smallint
 );
 
-\COPY census.characteristics FROM './data/raw_data/cx.item.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );
+\COPY census.item FROM './data/raw_data/cx.item.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );
