@@ -1,6 +1,6 @@
 CREATE TABLE census.item (
 	subcategory_code  text,
-	item_code         text      PRIMARY KEY,
+	item_code         varchar(8)    PRIMARY KEY,
 	item_text         text,
 	display_level     text,
 	selectable        bool,

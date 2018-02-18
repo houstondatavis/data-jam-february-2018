@@ -6,6 +6,9 @@ CREATE TABLE census.alldata (
 	footnote_codes  text
 );
 
-CREATE INDEX ON census.alldata ( census.parse_series_id(series_id) );
 
 \COPY census.alldata FROM './data/raw_data/cx.data.1.AllData.txt' WITH ( FORMAT CSV, HEADER true, DELIMITER E'\t' );
+
+UPDATE census.alldata SET series_id = trim(series_id);
+
+CREATE INDEX ON census.alldata ( census.parse_series_id(series_id) );
